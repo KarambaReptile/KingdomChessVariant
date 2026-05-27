@@ -1,4 +1,4 @@
-    # kingdom_chess_ai.py
+# kingdom_chess_ai.py
 # Kingdom Chess: corrected move generator + 3-level AI (Easy/Medium/Hard)
 # 10x10 board, all piece rules per Josef Laspina's official rules (2004)
 # Corrections vs original: 10x10 board, correct piece movements (Princess,
@@ -1360,4 +1360,3 @@ if __name__ == "__main__":
             pos = apply_uci(pos, line)
         except Exception as e:
             print(f"Error: {e}")
-
